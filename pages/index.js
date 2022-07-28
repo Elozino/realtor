@@ -1,12 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 import { fetchApi } from "../utils/fetchApi";
 import { baseUrl } from "../utils/fetchApi";
 
 import { Box, Flex, Text, Button } from "@chakra-ui/react";
 import Banner from "../components/Banner";
-import axios from "axios";
 import Property from "../components/Property";
 
 export default function Home({ propertyForSale, propertyForRent }) {
