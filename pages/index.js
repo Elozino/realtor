@@ -25,7 +25,7 @@ export default function Home({ propertyForSale, propertyForRent }) {
         desc1="Explore Apartments, Villas, Homes"
         desc2="and more"
         buttonText="Explore Renting"
-        linkName="/search?purpose=for=rent"
+        linkName="/search?purpose=for-rent"
         imageUrl="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbHRvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       />
       <Flex flexWrap="wrap">
@@ -40,7 +40,7 @@ export default function Home({ propertyForSale, propertyForRent }) {
         desc1="Explore Apartments, Villas, Homes"
         desc2="and more"
         buttonText="Explore Buying"
-        linkName="/search?purpose=for=sale"
+        linkName="/search?purpose=for-sale"
         imageUrl="https://images.unsplash.com/photo-1601760561441-16420502c7e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmVhbHRvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       />
       <Flex flexWrap="wrap">
