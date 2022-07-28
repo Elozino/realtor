@@ -4,7 +4,7 @@ import { FaBed, FaBath } from "react-icons/fa";
 import { BsGridFill } from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import millify from "millify";
-// import ReactHtmlParser from "react-html-parser";
+import ReactHtmlParser from "react-html-parser";
 import { baseUrl, fetchApi } from "../../utils/fetchApi";
 import ImageScrollbar from "../../components/ImageScrollbar";
 
@@ -57,8 +57,7 @@ const PropertyDetails = ({
           {title}
         </Text>
         <Text lineHeight="2" color="gray.600">
-          {description}
-          {/* {ReactHtmlParser(description)} */}
+          {ReactHtmlParser(description)}
         </Text>
       </Box>
       <Flex

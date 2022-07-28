@@ -28,7 +28,7 @@ const Navbar = () => {
               <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
             </Link>
             <Link href='/search?purpose=for-rent' passHref>
-              <MenuItem icon={<FcAbout />}>Rent Property</MenuItem>
+              <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
             </Link>
           </MenuList>
         </Menu>
