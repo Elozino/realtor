@@ -8,7 +8,7 @@ import Property from "../components/Property";
 import noresult from "../assets/noresult.svg";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
 
-const search = ({ properties }) => {
+const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
   const router = useRouter();
   return (
@@ -55,7 +55,7 @@ const search = ({ properties }) => {
   );
 };
 
-export default search;
+export default Search;
 
 export async function getServerSideProps({ query }) {
   const purpose = query.purpose || 'for-rent';
